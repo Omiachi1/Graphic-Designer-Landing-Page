@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import Logo from "../assets/logo.png";
+import Logo from "../assets/Logo.png";
 import { Facebook, Instagram, Menu, MessageCircleIcon, X } from "lucide-react";
 
 const navItems = [
