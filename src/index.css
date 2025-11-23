@@ -1,0 +1,49 @@
+/* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+:root {
+   font-family: "Poppins", sans-serif;
+   background: #05060A;
+   color: white;
+}
+
+
+/* STAR STYLE */
+.star {
+  position: absolute;
+  background: white;
+  border-radius: 50%;
+}
+
+/* METEOR STYLE */
+.meteor {
+  position: absolute;
+  background: linear-gradient(90deg, white, transparent);
+  border-radius: 50px;
+}
+
+/* TWINKLE ANIMATION */
+@keyframes pulse-subtle {
+  0% { opacity: 0.3; }
+  50% { opacity: 1; }
+  100% { opacity: 0.3; }
+}
+.animate-pulse-subtle {
+  animation: pulse-subtle infinite ease-in-out;
+}
+
+/* METEOR SHOOTING ANIMATION */
+@keyframes meteor {
+  0% {
+    transform: translate(0, 0) rotate(-45deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-600px, 600px) rotate(-45deg);
+    opacity: 0;
+  }
+}
+.animate-meteor {
+  animation: meteor linear infinite;
+}
