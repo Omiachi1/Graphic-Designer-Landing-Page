@@ -104,7 +104,7 @@ const ContactSection = () => {
         {/* Call to Action */}
         <div className="text-center mt-12 pt-8 border-t border-gray-700">
           <p className="text-gray-300 mb-4">
-            Prefer WhatsApp? Shoot me a message now{' '}
+            Prefer Email? Shoot me a message now{' '}
             <a 
               href="mailto:chrysolitegraphics@gmail.com" 
               className="text-[#0000A3] hover:underline font-semibold"
