@@ -7,7 +7,7 @@ const HeroSection = () => {
     <div id='hero' className='px-[4%] md:px-[8%] relative w-full items-center justify-center my-20 '>
       <div className='flex flex-col md:flex-row  justify-between gap-10 mx-auto'>
         <div className='w-ful flex justify-center md:w-[46%]'>
-          <img src={Hero} className='w-[450px] h-[580px] rounded-lg' alt="" />
+          <img src={Hero} className='w-full h-fit rounded-lg' alt="" />
         </div>
 
         <div className="w-full md:w-[46%]">
